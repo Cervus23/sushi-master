@@ -5,12 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Суши-мастер</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
   </head>
   <body>
     <header>
-      <img src="./img/clown-fish.webp" alt="logo" class="logo" />
-      <span class="name">Суши-мастер</span>
+      <div class="logo">
+        <picture>
+          <source srcset="./img/clown-fish.webp" type="image/webp" />
+          <img src="./img/clown-fish.webp" alt="logo" />
+        </picture>
+        <span class="logo-name">Суши-мастер</span>
+      </div>
       <button class="order-btn">Сделать заказ</button>
     </header>
+    <main>
+      <h1 class="title">
+        Суши-мастер - лучшее, что есть в твоем городе <br />
+        Порадуй себя и своих родных и близких
+      </h1>
+      <p class="main-text">
+        Ниже представлены самые популярные позиции <br />
+        за последние полгода работы на карантине
+      </p>
+
+      <h2 class="top-orders-title">Актуальные позиции</h2>
+      <section class="top-orders">
+        <div class="sushi-cards">
+          <div class="sushi-card">
+            <img src="./img/sushi-1.webp" alt="sushi-1" />
+            <h3 class="sushi-title">Грибной ролл</h3>
+            <p class="sushi-description">
+              Закажи сей вкусный ролл, <br />
+              Он украсит ваший стол,<br />
+              Он порадует ваш глаз,<br />
+              Получи скорей экстаз!<br />
+            </p>
+            <button class="order-sushi-btn active">Заказать</button>
+          </div>
+          <div class="sushi-card">
+            <img src="./img/sushi-2.webp" alt="sushi-2" />
+            <h3 class="sushi-title">Оранжад ролл</h3>
+            <p class="sushi-description">
+              Закажи сей вкусный ролл,<br />
+              Он украсит ваший стол,<br />
+              Он порадует ваш глаз,<br />
+              Получи скорей экстаз!<br />
+            </p>
+            <button class="order-sushi-btn inactive">
+              Недоступно к заказу
+            </button>
+          </div>
+          <div class="sushi-card">
+            <img src="./img/sushi-3.webp" alt="sushi-3" />
+            <h3 class="sushi-title">Грибной ролл</h3>
+            <p class="sushi-description">
+              Закажи сей вкусный ролл,<br />
+              Он украсит ваший стол,<br />
+              Он порадует ваш глаз,<br />
+              Получи скорей экстаз!<br />
+            </p>
+            <button class="order-sushi-btn inactive">
+              Недоступно к заказу
+            </button>
+          </div>
+        </div>
+        <div class="sushi-sets">
+          <div class="sushi-set">
+            <h3 class="set-title">Синергетический сет</h3>
+            <img src="./img/sushi-set-1.webp" alt="sushi-set-1" />
+          </div>
+          <p class="set-slogan">
+            А для абитуриентов <br />
+            у нас есть масса комплиментов!
+          </p>
+          <div class="sushi-set">
+            <img src="./img/sushi-set-2.webp" alt="sushi-set-2" />
+            <h3 class="set-title">Скарбовский сет</h3>
+          </div>
+        </div>
+      </section>
+      <section class="slider-section">
+        <h2 class="slider-title">Самые выгодные предложения:</h2>
+        <div class="slider-container">
+          <div class="slide">
+            <img src="./img/shrimps-1.webp" alt="shrimps-1" />
+            <p class="slide-slogan">Самые лучшие кеветки!</p>
+            <p class="slide-slogan">А в подарок вам салфетки!</p>
+            <img src="./img/napkins-1.webp" alt="napkins-1" />
+          </div>
+        </div>
+        <div class="slider-btns">
+          <button class="left-btn"></button>
+          <div class="slide-round"></div>
+          <div class="slide-round"></div>
+          <div class="slide-round"></div>
+          <button class="right-btn"></button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>
